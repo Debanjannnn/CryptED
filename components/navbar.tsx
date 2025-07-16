@@ -27,6 +27,7 @@ export function NavbarComponent({
   const [walletAddress, setWalletAddress] = useState<string | null>(null)
 
   // Function to connect wallet
+  // ADDRESS: 0x320916a818f05D78a299C256C5B02afE7Eed3baC
   const connectWallet = async () => {
     if (typeof window.ethereum !== "undefined") {
       try {
