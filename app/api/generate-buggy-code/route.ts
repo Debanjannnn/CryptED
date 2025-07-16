@@ -21,7 +21,7 @@ export async function POST(req: NextRequest) {
     }
 
     // Get the generative model
-    const model = genai.getGenerativeModel({ model: "gemini-1.5-flash" });
+    const model = genai.getGenerativeModel({ model: "gemini-2.5-flash" });
 
     // Generate the buggy code and hints in parallel
     const prompt = `Generate a  buggy code which isnt easy to fix for a ${level} level problem in ${language} and dont provide solution and  dont give uncessary text other than code and remove all comments and indentation and your gemini thankful response text.`;

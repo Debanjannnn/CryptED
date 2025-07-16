@@ -27,7 +27,7 @@ export async function POST(req: Request) {
 
     // Initialize Google Generative AI model
     const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY as string);
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash", safetySettings });
+    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash", safetySettings });
 
     // Construct the prompt for the AI model
     const prompt = createPrompt(selectedTopic, language);

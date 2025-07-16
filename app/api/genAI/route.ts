@@ -22,7 +22,7 @@ export async function POST(req: Request) {
     }
 
     const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY as string)
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" , safetySettings: safetySettings })
+    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" , safetySettings: safetySettings })
 
     let prompt: string;
     if (language) {
