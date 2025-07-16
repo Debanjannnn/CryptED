@@ -84,7 +84,7 @@ export default function Component() {
                   <CardTitle>{item.title} </CardTitle>
                   <CardDescription>{item.earnEth && (
                     <span className="bg-green-200 text-green-700 px-2 py-0.5 mt-5 rounded-full text-sm font-semibold mb-2 inline-block">
-                      Earn ETH
+                      Earn EDU
                     </span>
                   )} </CardDescription>
                 </CardHeader>

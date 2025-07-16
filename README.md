@@ -1,87 +1,121 @@
 # CryptED - Elevate Your DSA Skills with AI and Web3.0 By Earning EDU 💻✨
 
-**Learn, Debug, and Succeed** with AI-powered assistance.
+## 🚀 Learn, Debug, and Succeed with AI-Powered Assistance
 
-CryptED is an AI-powered learning web application designed to help users master Data Structures and Algorithms (DSA) through real-time debugging support, personalized learning paths, and AI-generated challenges, powered by EDU blockchain technology.
-
----
-
-## Features
-
-- **AI-Based DSA Challenges**: Problems generated based on user-selected difficulty levels with intentional bugs for hands-on learning.
-- **AI Chatbot**: Get instant answers to DSA questions using Gemini AI.
-- **Generative Learning**: Auto-generated content covering arrays, linked lists, trees, and advanced DSA topics.
-- **EDU Blockchain Integration**: Participate in decentralized coding challenges by staking EDU tokens and earning rewards.
+CryptED is an innovative AI-powered learning web application designed to help users master Data Structures and Algorithms (DSA) through real-time debugging support, personalized learning paths, and AI-generated challenges, all integrated with **EDU blockchain technology**.
 
 ---
 
-## Earn EDU with Coding Challenges
+## 🔥 Key Features
 
-Participants stake **EDU tokens** to join challenges. Successfully solving a challenge earns rewards greater than the staked amount. Rewards are funded by the EDU staked by unsuccessful participants, with payout scaling based on challenge difficulty.
+### 💡 AI-Based DSA Challenges
+- Auto-generated coding challenges based on user-selected difficulty levels.
+- Intentionally embedded bugs for hands-on debugging and learning.
 
-- **Challenge Contract Address**: [0x3D5c...a7B1 (EDU EVM)](https://teloscan.io/address/0x3D5c...a7B1) *(Sample EDU EVM address - replace with deployed contract)*
+### 🤖 AI Chatbot (Gemini AI-Powered)
+- Get instant answers to your DSA-related queries.
+- AI-generated explanations for common DSA problems.
+
+### 📚 Generative Learning System
+- AI-generated content covering **arrays, linked lists, trees, graphs, dynamic programming**, and more.
+- Personalized learning paths tailored to individual strengths and weaknesses.
+
+### 🔗 EDU Blockchain Integration
+- Participate in **decentralized coding challenges** by staking **EDU tokens**.
+- Earn **greater rewards** upon successful challenge completion.
+- Transparent and verifiable challenge outcomes powered by blockchain.
 
 ---
 
-## Challenges & Solutions
+## 🎯 Earn EDU by Competing in Challenges
 
-### AI Consistency Issues
-- Optimized prompts for Gemini AI to improve output reliability.
-- Implemented multi-stage review for AI-generated content.
-- Added dynamic user feedback loops for quality refinement.
+Participants stake **EDU tokens** to enter challenges. Rewards are distributed as follows:
+
+- **Winners**: Earn rewards greater than the staked amount.
+- **Losers**: Their staked tokens contribute to the reward pool.
+- **Dynamic Scaling**: Rewards scale based on the difficulty level of the challenge.
+
+🔹 **Challenge Contract Address**: [0xDa91C01E48eD351C891a128bC17aF38F02E5398A](https://edu-chain-testnet.blockscout.com/address/0xDa91C01E48eD351C891a128bC17aF38F02E5398A)
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-- **Frontend**: Next.js
+- **Frontend**: Next.js, TypeScript, Tailwind CSS
 - **Backend**: Node.js, Express.js
-- **Database**: Prisma ORM + PostgreSQL
-- **AI**: Gemini AI
-- **Blockchain**: EDU EVM, Solidity
+- **Database**: PostgreSQL + Prisma ORM
+- **AI**: Gemini AI (Google AI)
+- **Blockchain**: Hardhat, Solidity, ethers.js
 
 ---
 
-## Quick Start
+## 🚀 Quick Start Guide
 
-### Setup
+### 🏗️ Setup Instructions
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Debanjannnn/CryptED
+   git clone https://github.com/manovHacksaw/CryptED.git
    ```
-2. Install dependencies:
+2. Navigate to the project directory:
    ```bash
-   cd crypted-telos && npm install
+   cd CryptED
    ```
-3. Configure environment variables:
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Configure environment variables:
    ```env
    GEMINI_API_KEY=your_key_here
    ```
-4. Start the development server:
+5. Start the development server:
    ```bash
    npm run dev
    ```
 
 ---
 
-## Why EDU? 🌐
+## ⚡ Why Choose EDU Blockchain? 🌐
 
-- **Sub-second transaction finality** for instant reward payouts.
-- **Gas fees < $0.01** for seamless Web3 interactions.
-- **EVM compatibility** for easy Ethereum tooling migration.
-
----
-
-## Contribute
-
-1. Fork the repository.
-2. Create a feature branch: `git checkout -b feat/your-feature`.
-3. Submit a pull request with a detailed description.
+- **Sub-second transaction finality** for **instant** reward payouts.
+- **Ultra-low gas fees (< $0.01)** for seamless Web3 interactions.
+- **EVM compatibility** for easy integration with Ethereum-based tools.
 
 ---
 
-**License**: MIT
+## 🛠️ Challenges & Solutions
 
-*Empowering decentralized DSA education through AI and EDU blockchain* 🚀🔗
+### 🔥 AI Consistency Improvements
+- Optimized prompts for **Gemini AI** to improve response reliability.
+- Implemented **multi-stage review** for AI-generated content quality.
+- Added **dynamic user feedback loops** to refine learning experiences.
 
+---
+
+## 🤝 Contributing to CryptED
+
+We welcome contributions from developers and educators passionate about AI and blockchain!
+
+1. **Fork** the repository.
+2. Create a new **feature branch**:
+   ```bash
+   git checkout -b feat/your-feature
+   ```
+3. Implement your changes and **commit**:
+   ```bash
+   git commit -m "Add feature: your feature description"
+   ```
+4. **Push** the branch:
+   ```bash
+   git push origin feat/your-feature
+   ```
+5. Open a **pull request (PR)** with a detailed description of your changes.
+
+---
+
+## 📜 License
+
+**CryptED** is open-source and distributed under the **MIT License**.
+
+> *Empowering decentralized DSA education through AI and EDU Chain* 🚀🔗
